@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template.toolWindow
+package com.github.hamen.intellijminimalplugin.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -11,7 +11,7 @@ import com.intellij.ui.content.ContentFactory
 import com.intellij.util.ui.components.BorderLayoutPanel
 import java.awt.Dimension
 import javax.swing.BoxLayout
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.hamen.intellijminimalplugin.services.MyProjectService
 
 class MyToolWindowFactory : ToolWindowFactory {
 
